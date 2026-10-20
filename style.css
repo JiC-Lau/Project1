@@ -1,0 +1,191 @@
+/* General page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+/* Sections */
+
+section {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+/* Expense form */
+
+#expenseForm {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#expenseForm div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input,
+select {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#expenseDescription {
+    width: 250px;
+}
+
+
+/* Buttons */
+
+button {
+    padding: 9px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2864dc;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1749a8;
+}
+
+
+/* Validation */
+
+.error {
+    color: #c62828;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.invalid {
+    border: 2px solid #c62828;
+}
+
+
+/* Monthly summary */
+
+#monthFilter {
+    margin-bottom: 15px;
+}
+
+#categorySummary {
+    line-height: 1.6;
+}
+
+#totalSpent {
+    color: #2864dc;
+}
+
+
+/* Expense table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+tbody tr:hover {
+    background-color: #f7f7f7;
+}
+
+
+/* Delete button */
+
+.delete-button {
+    background-color: #c62828;
+}
+
+.delete-button:hover {
+    background-color: #8e1c1c;
+}
+
+
+/* Messages */
+
+#formMessage {
+    margin-top: 15px;
+}
+
+#noExpenses {
+    color: #666;
+}
+
+
+/* Smaller screens */
+
+@media (max-width: 700px) {
+
+    #expenseForm {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #expenseForm div {
+        width: 100%;
+    }
+
+    #expenseDescription {
+        width: auto;
+    }
+
+    input,
+    select,
+    button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Monthly Expense Tracker</h1>
+
+        <!-- Add Expense -->
+        <section>
+            <h2>Add Expense</h2>
+
+            <form id="expenseForm" novalidate>
+
+                <div>
+                    <label for="expenseDate">Date</label>
+                    <input 
+                        type="date" 
+                        id="expenseDate" 
+                        name="date" 
+                        required>
+                    <span id="dateError" class="error"></span>
+                </div>
+
+                <div>
+                    <label for="expenseAmount">Amount (€)</label>
+                    <input 
+                        type="number" 
+                        id="expenseAmount" 
+                        name="amount"
+                        min="0.01"
+                        step="0.01"
+                        placeholder="0.00"
+                        required>
+                    <span id="amountError" class="error"></span>
+                </div>
+
+                <div>
+                    <label for="expenseCategory">Category</label>
+                    <select 
+                        id="expenseCategory" 
+                        name="category"
+                        required>
+                        <option value="">Select category</option>
+                        <option value="Groceries">Groceries</option>
+                        <option value="Restaurants">Restaurants</option>
+                        <option value="Transportation">Transportation</option>
+                        <option value="Shopping">Shopping</option>
+                        <option value="Bills">Bills</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span id="categoryError" class="error"></span>
+                </div>
+
+                <div>
+                    <label for="expenseDescription">Description</label>
+                    <input 
+                        type="text" 
+                        id="expenseDescription" 
+                        name="description"
+                        maxlength="100">
+                    <span id="descriptionError" class="error"></span>
+                </div>
+
+                <button type="submit">Add Expense</button>
+
+            </form>
+
+            <p id="formMessage" role="status"></p>
+        </section>
+
+
+        <!-- Monthly Summary -->
+        <section>
+            <h2>Monthly Summary</h2>
+
+            <div>
+                <label for="monthFilter">Month</label>
+                <input 
+                    type="month" 
+                    id="monthFilter" 
+                    name="month">
+            </div>
+
+            <h3>
+                Total spent:
+                <span id="totalSpent">€0.00</span>
+            </h3>
+
+            <div id="categorySummary">
+                <p>No expenses recorded for this month.</p>
+            </div>
+        </section>
+
+
+        <!-- Expense List -->
+        <section>
+            <h2>Expense List</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="expenseList">
+                    <!-- JavaScript will add expenses here -->
+                </tbody>
+            </table>
+
+            <p id="noExpenses">No expenses recorded yet.</p>
+        </section>
+
+    </main>
+
+    
+
+</body>
+
+</html>
