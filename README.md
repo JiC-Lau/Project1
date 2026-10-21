@@ -77,42 +77,36 @@ Describe the technologies you used and their role in your project.
 
 ## Screenshots
 
-Add at least one screenshot of your working application.
+<img width="698" height="627" alt="image" src="https://github.com/user-attachments/assets/c1345b21-28be-462c-b3fc-e2ea40256bc2" />
 
-Example:
-
-![Screenshot of the application](img/screenshot.png)
 
 ## Known issues / limitations
 
-Describe any known bugs, missing features or other limitations.
-
-If there are no known issues, write: **No known issues.**
+- Not sure how much data can be saved in the local storage / whether monthly expense can be all saved without separate storage / server 
+- would have been nicer to have pie chart to show by category but it is beyond my knowledge and skills
 
 ## Self-assessment and learning reflection
 
 Reflect on your work and learning process.
 
-- What did I succeed in?
-- What was challenging?
-- What would I improve if I had more time?
-- What did I learn about HTML, CSS, JavaScript and DOM scripting?
-- What remained unclear or what would I like to learn more about?
-- My self-assessed project grade: **xx/10 points**
+- What did I succeed in? I was able to understand what to ask AI, what to look for in VS code, then later understand the explanation by AI
+- What was challenging? Building from scratch was beyond my skills as I couldn't remember everything by heart. So I had to rely on AI tool a lot
+- What would I improve if I had more time? I can learn how to make it visually nicer and add more complex functions
+- What did I learn about HTML, CSS, JavaScript and DOM scripting? I learned high level roles each play, and also possibility to build nice application easily using AI 
+- What remained unclear or what would I like to learn more about? I'm torn between the feeling of guilty not knowing everything by heart vs it is enough to be able to ask AI and understand what it says in general (because nowadays it is possible to build what you want so easily as long as you can prompt). So I'm not sure if it's still critical to know everything by heart or it's okey to have general understanding 
+- My self-assessed project grade: **xx/10 points** For the outcome itself, I can give 10 points. But if I assess from how I was able to build it leveraging AI tools, maybe 8/10 points.  
 
 ## Sources and acknowledgements
 
-List all sources, tutorials, images and code examples used in your project.
-
-If you used ChatGPT, GitHub Copilot or another AI tool, mention it here and briefly explain how it supported your work.
-
-- [Source or tutorial name](https://example.com/)
-- [Image source](https://example.com/)
-- AI tool used: ...
-  - How the tool was used: ...
+- AI tool used: 
+  - Figma agents to build a wireframe. I copied and pasted project plan and main features and it suggested sophisticated wireframe first and then through modification I completed with simple black and white wireframe that I can actually build.
+  - Copilot was used to get coaching on my coding, it helped me with especially javascript but also a few html and css
+  - html : select and option value, table
+  - css : all built as guided by the embeded copilot in visual studio
+  - javascript : used copilot a lot for this, for examples, showing the current date and month as default, setting up error message and validating the input value, adding the expense to the array, setting up the month filter, adding button to the cell in the table, showing the total by category, deleting the input.  
 
 ## License
-
+(didn't update this part)
 This project is licensed under the MIT License.
 
 More information about adding a license to a GitHub repository:  
