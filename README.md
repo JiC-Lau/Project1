@@ -45,7 +45,7 @@ Made using Figma agents
 ## Web links
 
 - **Published application:** [Add your GitHub Pages URL here] https://jic-lau.github.io/Project1/
-- **GitHub repository:** [Add your repository URL here](https://github.com/yourusername/your-repository)
+- **GitHub repository:** [Add your repository URL here] https://github.com/JiC-Lau/Project1 
 - **Project video presentation:** [Add your video URL here](https://example.com/)
 
 ## About the application
