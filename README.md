@@ -46,7 +46,7 @@ Made using Figma agents
 
 - **Published application:** [Add your GitHub Pages URL here] https://jic-lau.github.io/Project1/
 - **GitHub repository:** [Add your repository URL here] https://github.com/JiC-Lau/Project1 
-- **Project video presentation:** [Add your video URL here](https://example.com/)
+- **Project video presentation:** [Add your video URL here] https://laureauas-my.sharepoint.com/:v:/g/personal/jic00007_laurea_fi/IQCV5z8hhmuoSrbS9t4KnMYEAW-9LWapE0FCgIUdmFAjFFo?email=Juho.Kastemaa%40laurea.fi&e=tIi75N (due to the PHP vulnerability issue, the video laurea site is down so saved in Onedrive, hopefully the teacher can access this)
 
 ## About the application
 
